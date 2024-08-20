@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fixed Navigation bar style */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 0 20px 0 lightslategray;
+}
+
+.navbar {
+    background-color: darkcyan;
+    color: white;
+    height: 80px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar:hover {
+    background-color: powderblue;
+    color: black;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link {
+    display: flex;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    background-color: teal;
+}
+
+/* Section's style */
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.sectionFive {
+    background-color: lightyellow;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTwo {
+    background-color: lightcyan;
+}
+
+.sectionThree {
+    background-color: ghostwhite;
+}
+
+.sectionFour {
+    background-color: lightskyblue;
+}
+
+.sectionFive {
+    background-color: lightgoldenrodyellow;
+}
+
+.para {
+    color: black;
+    font-size: 25px;
+}
